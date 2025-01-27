@@ -1,0 +1,128 @@
+body {
+  font-family: "Geist", sans-serif;
+  background-color: #e9ecef;
+}
+
+.bg-body-tertiary {
+  background-color: #f8f9fa !important;
+}
+
+.dropdown-menu {
+  display: none;
+}
+
+.tradingHours {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tradingHours li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.tradingHours .day {
+  font-weight: bold;
+  width: 40%;
+  text-align: right;
+}
+
+.tradingHours .time {
+  width: 55%;
+}
+
+.locandcontact {
+  list-style: none;
+}
+
+.locandcontact li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.locandcontact .day {
+  font-weight: bold;
+  width: 40%;
+  text-align: right;
+}
+
+.locandcontact .time {
+  width: 55%;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: contain;
+  padding: 10px;
+  background: #fff;
+}
+
+.card {
+  height: 100%;
+}
+
+.card-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80px;
+  background-color: #212529;
+  color: white;
+}
+
+.container-fluid .row .col-6 img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 8px;
+}
+
+.container-fluid .row .col-6 img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Transition for text containers */
+.container-fluid .row .col-6:has(h1) {
+  transition: all 0.3s ease;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.container-fluid .row .col-6:has(h1):hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+.container-fluid .row .col-6 h1 {
+  transition: color 0.3s ease;
+}
+
+.container-fluid .row .col-6 p {
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.container-fluid .row .col-6:hover p {
+  color: #264653;
+  transform: translateX(5px);
+}
+
+.tradingHours li {
+  transition: transform 0.3s ease;
+}
+
+.tradingHours li:hover {
+  transform: translateX(10px);
+}
+
+.locandcontact li {
+  transition: transform 0.3s ease;
+}
+
+.locandcontact li:hover {
+  transform: translateX(10px);
+}
